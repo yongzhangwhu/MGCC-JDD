@@ -39,7 +39,7 @@ You can download the pretrained models for synthetic and realistic datasets from
         sh ./script/test-MGCC-jdd-df2k_msr.sh 
         ``` 
 ## Train
-We train our model both on synthesis datasets([DF2k](https://github.com/xinntao/BasicSR)) and realistic dataset([MSR dataset](https://msropendata.com/datasets/14e910fa-af4a-4a6a-b3b5-fef2f688c923)).
+We train our model on both synthesis datasets([DF2k](https://github.com/xinntao/BasicSR)) and realistic dataset([MSR dataset](https://msropendata.com/datasets/14e910fa-af4a-4a6a-b3b5-fef2f688c923)).
 
 - preparation
     - generate txt file used for training by **./datasets/generate_image_list.py**.
