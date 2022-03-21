@@ -18,12 +18,15 @@ cd MGCC-JDD
 - scikit-image
 
 ### Pretrain model
-You can download the pretrained models for synthetic and realistic datasets from [here](https://drive.google.com/drive/folders/1jetdV2tXJ8dkg1HLDylhy7e2g9iU1Ilr?usp=sharing)
+You can download the pretrained models for synthetic and realistic datasets from [here](https://drive.google.com/drive/folders/1jetdV2tXJ8dkg1HLDylhy7e2g9iU1Ilr?usp=sharing).
 
 ## Train
 
 ## Inference
 
 ## Sample results
+<p align="center">
+  <img height="200" src="figs/JDD_comparison.jpg">
+</p> 
 
 ## Acknowlegements
