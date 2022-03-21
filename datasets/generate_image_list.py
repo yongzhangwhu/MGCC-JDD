@@ -1,9 +1,12 @@
 import os
 import numpy as np
-import shutil
-import random
 
+# generate the image list of synthetic datasets
 def generate_image_list(dataset_path, img_list_path):
+    '''
+    dataset_path: the path of dasetset used for training or test
+    img_list_path: the path of corresponding txt file
+    '''
     
     file = open(img_list_path, 'w')
     img_path = os.listdir(dataset_path)
