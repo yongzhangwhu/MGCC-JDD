@@ -57,7 +57,7 @@ We train our model both on synthesis datasets([DF2k](https://github.com/xinntao/
 
 ## Sample results
 <p align="center">
-  <img height="600" src="figs/JDD_comparison.jpg">
+  <img height="700" src="figs/JDD_comparison.jpg">
 </p> 
 
 ## Acknowlegements
