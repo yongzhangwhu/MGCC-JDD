@@ -21,20 +21,20 @@ cd MGCC-JDD
 You can download the pretrained models for synthetic and realistic datasets from [here](https://drive.google.com/drive/folders/1jetdV2tXJ8dkg1HLDylhy7e2g9iU1Ilr?usp=sharing).
 
 ## Test
-- 1. preparation
-    - a. for synthetic datasets
-        - 1). add noise by preprocess.m using matlab
-        - 2). modify --test_noisy_path, --test_gt_path, --sigma, --pretrained_model in test-MGCC-jdd-df2k.sh.
+- preparation
+    - for synthetic datasets
+        - add noise by preprocess.m using matlab
+        - modify --test_noisy_path, --test_gt_path, --sigma, --pretrained_model in test-MGCC-jdd-df2k.sh.
 
-    - b. for MSR dataset
-        - 1). generate txt file used for test by generate_image_list.py
-        - 2). modify --test_datalist, --pretrained_model in test-MGCC-jdd-df2k_msr.sh.
-2. test model
-    a. test model trained by synthesis datasets 
+    - for MSR dataset
+        - generate txt file used for test by generate_image_list.py
+        - modify --test_datalist, --pretrained_model in test-MGCC-jdd-df2k_msr.sh.
+- test model
+    - test model trained by synthesis datasets 
         ```
         sh ./script/test-MGCC-jdd-df2k.sh  
         ```  
-    b. test model trained by MSR datasets
+    - test model trained by MSR datasets
         ```
         sh ./script/test-MGCC-jdd-df2k_msr.sh 
         ``` 
