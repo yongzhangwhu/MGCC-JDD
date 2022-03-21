@@ -5,10 +5,20 @@ Pytorch implementation of paper "Joint Image demosaicking and denoising with mut
 </p> 
 
 ## Installation
-
-### Python requirements
+```
+git clone https://github.com/yongzhangwhu/MGCC-JDD
+cd MGCC-JDD  
+```
+### Requirements
+- Python >= 3
+- [PyTorch 0.4.1](https://pytorch.org/)
+- [Tensorflow](https://www.tensorflow.org/install)  (cpu version is enough, only used for visualization in training)
+- opencv-python 
+- scipy 
+- scikit-image
 
 ### Pretrain model
+You can download the pretrained models for synthetic and realistic datasets from [here](https://drive.google.com/drive/folders/1jetdV2tXJ8dkg1HLDylhy7e2g9iU1Ilr?usp=sharing)
 
 ## Train
 
