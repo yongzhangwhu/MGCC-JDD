@@ -20,9 +20,9 @@ def generate_image_list_from_MSR():
     train_path = '../dataset/Dataset_LINEAR_with_noise/bayer_panasonic/train.txt'
     valid_path = '../dataset/Dataset_LINEAR_with_noise/bayer_panasonic/validation.txt'
 
-    test_path_list = './datasets/MSR_test.txt'
-    train_path_list = './datasets/MSR_train.txt'
-    valid_path_list = './datasets/MSR_valid.txt'
+    test_path_list = './datasets/test_MSR.txt'
+    train_path_list = './datasets/train_MSR.txt'
+    valid_path_list = './datasets/valid_MSR.txt'
 
     input_path = '../dataset/Dataset_LINEAR_with_noise/bayer_panasonic/input'
     groundtruth_path = '../dataset/Dataset_LINEAR_with_noise/bayer_panasonic/groundtruth'
