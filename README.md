@@ -23,7 +23,7 @@ You can download the pretrained models for synthetic and realistic datasets from
 ## Test
 - preparation
     - for synthetic datasets
-        - add noise by **preprocess.m** using matlab
+        - add noise by **preprocess.m** using matlab.
         - modify --test_noisy_path, --test_gt_path, --sigma, --pretrained_model in **./script/test-MGCC-jdd-df2k.sh**.
 
     - for MSR dataset
@@ -41,9 +41,9 @@ You can download the pretrained models for synthetic and realistic datasets from
 ## Train
 We train our model both on synthesis datasets([DF2k](https://github.com/xinntao/BasicSR)) and realistic dataset([MSR dataset](https://msropendata.com/datasets/14e910fa-af4a-4a6a-b3b5-fef2f688c923)).
 
-- data preparation
-    - generate txt file used for training by **./datasets/generate_image_list.py**
-    - modify the training setting in ./script/run-MGCC-jdd-df2k.sh or ./script/run-MGCC-jdd-df2k_msr.sh
+- preparation
+    - generate txt file used for training by **./datasets/generate_image_list.py**.
+    - modify the training setting in ./script/run-MGCC-jdd-df2k.sh or ./script/run-MGCC-jdd-df2k_msr.sh.
 - train model
     - on synthetic datasets
       ```
@@ -61,3 +61,6 @@ We train our model both on synthesis datasets([DF2k](https://github.com/xinntao/
 </p> 
 
 ## Acknowlegements
+The architecture of our codes are based on [TENet](https://github.com/guochengqian/TENet). 
+The pac code is provided by [PACNet](https://github.com/NVlabs/pacnet).
+The noise estimation code wmad_estimator.py is provided by [Kokkinos](https://github.com/cig-skoltech/deep_demosaick).
