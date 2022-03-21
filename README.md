@@ -1,7 +1,7 @@
 # MGCC-pytorch
 Pytorch implementation of paper "Joint Image demosaicking and denoising with mutual guidance of color channels"
 <p align="center">
-  <img height="200" src="figs/MGCC.png">
+  <img height="300" src="figs/MGCC.png">
 </p> 
 
 ## Installation
@@ -26,7 +26,7 @@ You can download the pretrained models for synthetic and realistic datasets from
 
 ## Sample results
 <p align="center">
-  <img height="200" src="figs/JDD_comparison.jpg">
+  <img height="600" src="figs/JDD_comparison.jpg">
 </p> 
 
 ## Acknowlegements
