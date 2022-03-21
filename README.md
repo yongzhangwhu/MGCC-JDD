@@ -23,12 +23,12 @@ You can download the pretrained models for synthetic and realistic datasets from
 ## Test
 - preparation
     - for synthetic datasets
-        - add noise by preprocess.m using matlab
-        - modify --test_noisy_path, --test_gt_path, --sigma, --pretrained_model in test-MGCC-jdd-df2k.sh.
+        - add noise by **preprocess.m** using matlab
+        - modify --test_noisy_path, --test_gt_path, --sigma, --pretrained_model in **./script/test-MGCC-jdd-df2k.sh**.
 
     - for MSR dataset
-        - generate txt file used for test by generate_image_list.py
-        - modify --test_datalist, --pretrained_model in test-MGCC-jdd-df2k_msr.sh.
+        - generate txt file used for test by **./datasets/generate_image_list.py**.
+        - modify --test_datalist, --pretrained_model in **./script/test-MGCC-jdd-df2k_msr.sh**.
 - test model
     - test model trained by synthesis datasets 
         ```
