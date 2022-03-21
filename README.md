@@ -43,7 +43,7 @@ We train our model on both synthesis datasets([DF2k](https://github.com/xinntao/
 
 - preparation
     - generate txt file used for training by **./datasets/generate_image_list.py**.
-    - modify the training setting in ./script/run-MGCC-jdd-df2k.sh or ./script/run-MGCC-jdd-df2k_msr.sh.
+    - modify the training setting in **./script/run-MGCC-jdd-df2k.sh** or **./script/run-MGCC-jdd-df2k_msr.sh**.
 - train model
     - on synthetic datasets
       ```
