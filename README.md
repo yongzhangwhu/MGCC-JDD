@@ -12,10 +12,10 @@ cd MGCC-JDD
 ### Requirements
 - Python 3.7
 - [PyTorch 1.7.1](https://pytorch.org/)
-- [Tensorflow 1.15.0](https://www.tensorflow.org/install)
-- opencv-python 
-- scipy 
-- scikit-image
+- [Tensorflow 1.15.0](https://www.tensorflow.org/install) 
+- scipy==1.1.0
+- scikit-image==0.17.2
+- opencv-python
 
 ### Pretrain model
 You can download the pretrained models for synthetic and realistic datasets from [here](https://drive.google.com/drive/folders/1jetdV2tXJ8dkg1HLDylhy7e2g9iU1Ilr?usp=sharing).
