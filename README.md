@@ -12,7 +12,7 @@ cd MGCC-JDD
 ### Requirements
 - Python 3.7
 - [PyTorch 1.7.1](https://pytorch.org/)
-- [Tensorflow 1.15.0](https://www.tensorflow.org/install)  (cpu version is enough, only used for visualization in training)
+- [Tensorflow 1.15.0](https://www.tensorflow.org/install)
 - opencv-python 
 - scipy 
 - scikit-image
