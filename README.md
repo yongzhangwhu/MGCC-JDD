@@ -47,11 +47,11 @@ We train our model on both synthesis datasets([DF2k](https://github.com/xinntao/
 - train model
     - on synthetic datasets
       ```
-          ./script/run-MGCC-jdd-df2k.sh
+        sh ./script/run-MGCC-jdd-df2k.sh
       ```
     - on realistic dataset
       ```
-          ./script/run-MGCC-jdd-df2k_msr.sh
+        sh ./script/run-MGCC-jdd-df2k_msr.sh
       ```
        
 
