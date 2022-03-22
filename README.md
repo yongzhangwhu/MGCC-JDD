@@ -10,7 +10,7 @@ git clone https://github.com/yongzhangwhu/MGCC-JDD
 cd MGCC-JDD  
 ```
 ### Requirements
-- Python 3.6
+- Python 3.7
 - [PyTorch 1.7.1](https://pytorch.org/)
 - [Tensorflow 1.15.0](https://www.tensorflow.org/install)  (cpu version is enough, only used for visualization in training)
 - opencv-python 
